@@ -3,5 +3,10 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
-.item { width: 25%; }
-.item.w2 { width: 50%; }
+.item { 
+	width: 200px; 
+	height: 200px;
+	background-color: #EEE;
+	float: left;
+	margin: 5px;
+}
