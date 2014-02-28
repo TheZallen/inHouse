@@ -7,9 +7,10 @@ $( document ).ready(function() {
 	  layoutMode: 'fitRows',
 	  getSortData: {
 	    name: '.name',
-	    symbol: '.symbol',
-	    number: '.number parseInt',
-	    category: '[data-category]',
+	    ac: '.ac',
+	    dining: '.dining',
+	    north: '.north',
+	    south: '.south',
 	    weight: function( itemElem ) {
 	      var weight = $( itemElem ).find('.weight').text();
 	      return parseFloat( weight.replace( /[\(\)]/g, '') );
