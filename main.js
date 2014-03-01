@@ -1,5 +1,22 @@
 $( document ).ready(function() {
 	var $container = $('#containerDorm');
+	var dorms [
+	{	
+		"name":"Elder"
+		"ac": true,
+		"dining": true,
+		"north": true,
+		"south": false,
+		"small": false,
+		"medium": false,
+		"large": true,
+		"single": false,
+		"double": true 
+	},
+	{
+
+	}
+	];
 	// init
 	$container.isotope({
 	  // options
