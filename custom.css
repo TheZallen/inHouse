@@ -44,6 +44,19 @@ body {
 #containerDorm {
 	margin-top: 10px;
 }
+
+.logo
+{
+	font-size: 35px;
+}
+.logo:hover
+{
+	text-decoration: none;
+}
+.logo img
+{
+	padding-bottom: 5px;
+}
 .button-group {
 	padding: 10px;
 }
