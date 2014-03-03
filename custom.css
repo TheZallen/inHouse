@@ -95,7 +95,7 @@ body {
 	border: none;
 	color: #ecf0f1;
 	text-align: right;
-	font-size: 2em;
+		: 2em;
 	-webkit-transition: background-color .5s, padding-right .5s; /* For Safari 3.1 to 6.0 */
 	transition: background-color .5s, padding-right .5s;
 }

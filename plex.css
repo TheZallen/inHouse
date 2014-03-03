@@ -113,6 +113,17 @@ body {
 	font-size: 10;
 }
 
+#submit-ratings
+{
+	position:relative;
+	
+}
+
+#button
+{
+	margin-left:100px;
+}
+
 #comments
 {
 	margin-left:100px;
