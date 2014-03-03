@@ -12,6 +12,8 @@ $( document ).ready(function() {
 		"large": true,
 		"single": false,
 		"double": true,
+		"party": true,
+		"quiet": false,
 		"rating": 0
 	},
 	{
@@ -25,6 +27,8 @@ $( document ).ready(function() {
 		"large": true,
 		"single": false,
 		"double": true,
+		"party": true,
+		"quiet": false,
 		"rating": 0
 	},
 	{
@@ -38,6 +42,8 @@ $( document ).ready(function() {
 		"large": true,
 		"single": false,
 		"double": true,
+		"party": true,
+		"quiet": false,
 		"rating": 0
 	},
 	{
@@ -51,6 +57,8 @@ $( document ).ready(function() {
 		"large": false,
 		"single": false,
 		"double": true,
+		"party": false,
+		"quiet": true,
 		"rating": 0
 	}
 	,{
@@ -64,6 +72,8 @@ $( document ).ready(function() {
 		"large": true,
 		"single": false,
 		"double": true,
+		"party": false,
+		"quiet": true,
 		"rating": 0
 	}
 	,{
@@ -77,6 +87,8 @@ $( document ).ready(function() {
 		"large": true,
 		"single": true,
 		"double": false,
+		"party": false,
+		"quiet": true,
 		"rating": 0
 	},
 	{
@@ -90,6 +102,8 @@ $( document ).ready(function() {
 		"large": false,
 		"single": false,
 		"double": true,
+		"party": false,
+		"quiet": true,
 		"rating": 0
 	},
 	{
@@ -103,6 +117,8 @@ $( document ).ready(function() {
 		"large": false,
 		"single": true,
 		"double": true,
+		"party": false,
+		"quiet": true,
 		"rating": 0
 	},
 	{
@@ -116,6 +132,8 @@ $( document ).ready(function() {
 		"large": false,
 		"single": true,
 		"double": true,
+		"party": false,
+		"quiet": true,
 		"rating": 0
 	}
 	];
@@ -156,7 +174,9 @@ $( document ).ready(function() {
 	        "check7" : "medium",
 	        "check8" : "large",
 	        "check9" : "single",
-	        "check0" : "double"
+	        "check0" : "double",
+	        "check11" : "party",
+	        "check12" : "quiet"
 	    };
 
 	    var arrayOfIds = []; // to store array of ids
@@ -208,6 +228,8 @@ $( document ).ready(function() {
 				if (filterArr[k] == "check8" && dorms[i].large){score++};
 				if (filterArr[k] == "check9" && dorms[i].single){score++};
 				if (filterArr[k] == "check0" && dorms[i].double){score++};
+				if (filterArr[k] == "check11" && dorms[i].party){score++};
+				if (filterArr[k] == "check12" && dorms[i].quiet){score++};
 			}
 		    dorms[i].rating = Math.round((score/filtersSelected)*100);
 		  	$('#' + dorms[i].name + 'Rat').text("" + dorms[i].rating);
