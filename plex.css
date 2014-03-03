@@ -1,3 +1,6 @@
+body {
+	background-color: #FFF;
+}
 #intro
 {
 	width: 40%;
@@ -85,7 +88,7 @@
 	width: auto;
 }
 
-.rating
+.starRat
 {
 	margin-right: 50px;
 	float:left;
