@@ -17,6 +17,12 @@ body {
 	
 }
 
+#map{
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
 
 #pictures
 {
@@ -76,6 +82,7 @@ body {
 {
 	margin-top: 25px;
 	margin-left: 150px;
+	width: 100%;
 }
 
 #ratings h2
@@ -93,4 +100,28 @@ body {
 	margin-right: 50px;
 	float:left;
 	
+}
+
+#submit-comment
+{
+	margin-top: 140px;
+	margin-left: 100px;
+}
+
+#submit-comment h1
+{
+	font-size: 10;
+}
+
+#comments
+{
+	margin-left:100px;
+	margin-top:50px;
+	width:50%;
+}
+
+#comments-header
+{
+	font-size: 20px;
+	margin-bottom: 20px;
 }
