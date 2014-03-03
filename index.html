@@ -54,7 +54,6 @@
 
     <div class="leftDiv">
       <form id="sorts" class="button-group" action="">
-        <input type="checkbox" id="check1" data-sort-value="name">default</input>
         <input type="checkbox" id="check2" data-sort-value="north">north</input>
         <input type="checkbox" id="check3" data-sort-value="south">south</input>
         <input type="checkbox" id="check4" data-sort-value="dining">has dining hall</input>
@@ -70,140 +69,50 @@
     <div class="container">
 
     	<div id="containerDorm">
-    	  <div class="item">
-          <h1 class="name">Plex</h1>
-          <ul>
-            <li class="ac">has a.c.</li>
-            <li class="dining">has dining hall</li>
-            <li class="south">z</li>
-            <li class="north">z</li>
-            <li class="small">z</li>
-            <li class="medium">z</li>
-            <li class="large">large</li>
-            <li class="single">single</li>
-            <li class="double">z</li>
-          </ul>
-          <img src="http://maps.northwestern.edu/img/object_photos/103.jpg"/>
-        </div>
-    	  <div class="item">
-          <h1 class="name">Elder</h1>
-          <ul>
-            <li class="dining">has dining hall</li>
-            <li class="north">north</li>
-            <li class="ac">has a.c.</li>
-            <li class="south">z</li>
-            <li class="small">z</li>
-            <li class="medium">z</li>
-            <li class="large">large</li>
-            <li class="single">z</li>
-            <li class="double">double</li>
-          </ul>
-          <img src="http://www.scb.com/sites/default/files/styles/image_780_580/adaptive-image/public/8812-46.jpg"/>
-        </div>
-    	  <div class="item">
-          <h1 class="name">Bobb-McCulloch</h1>
-          <ul>
-            <li class="ac">has a.c.</li>
-            <li class="north">north</li>
-            <li class="south">z</li>
-            <li class="dining">z</li>
-            <li class="small">z</li>
-            <li class="medium">z</li>
-            <li class="large">large</li>
-            <li class="single">z</li>
-            <li class="double">double</li>
-          </ul>
-          <img src="http://nbn-housing.s3.amazonaws.com/static/img/slideshows/bobb/img1.jpg"/>
-        </div>
-        <div class="item">
-          <h1 class="name">Sargent</h1>
-          <ul>
-            <li class="dining">has dining hall</li>
-            <li class="north">north</li>
-            <li class="ac">z</li>
-            <li class="south">z</li>
-            <li class="small">z</li>
-            <li class="medium">medium</li>
-            <li class="large">z</li>
-            <li class="single">z</li>
-            <li class="double">double</li>
-          </ul>
-          <img src="http://farm1.staticflickr.com/6/10761603_8ed6838c16_o.jpg"/>
-        </div>
         <div class="item">
           <h1 class="name">Allison</h1>
-          <ul>
-            <li class="dining">has dining hall</li>
-            <li class="south">south</li>
-            <li class="ac">has a.c.</li>
-            <li class="north">z</li>
-            <li class="small">z</li>
-            <li class="medium">z</li>
-            <li class="large">large</li>
-            <li class="single">z</li>
-            <li class="double">double</li>
-          </ul>
+          <h2 id="allisonRat" class="rating">0</h2>
           <img src="http://farm6.staticflickr.com/5036/6915543312_8ac7efe9c3_o.jpg"/>
         </div>
         <div class="item">
-          <h1 class="name">Hinman</h1>
-          <ul>
-            <li class="ac">has a.c.</li>
-            <li class="south">south</li>
-            <li class="dining">has dining hall</li>
-            <li class="north">z</li>
-            <li class="small">z</li>
-            <li class="medium">medium</li>
-            <li class="large">z</li>
-            <li class="single">single</li>
-            <li class="double">double</li>
-          </ul>
-          <img src="http://maps.northwestern.edu/img/object_photos/69.jpg"/>
-        </div>
-        <div class="item">
           <h1 class="name">Ayers</h1>
-          <ul>
-            <li class="ac">has a.c.</li>
-            <li class="north">north</li>
-            <li class="dining">z</li>
-            <li class="south">z</li>
-            <li class="small">small</li>
-            <li class="medium">z</li>
-            <li class="large">z</li>
-            <li class="single">z</li>
-            <li class="double">double</li>
-          </ul>
+          <h2 id="ayersRat" class="rating">0</h2>
           <img src="http://www.ayerscci.com/wp-content/uploads/2013/02/IMAG2792-1024x612.jpg"/>
         </div>
         <div class="item">
-          <h1 class="name">Slivka</h1>
-          <ul>
-            <li class="ac">has a.c.</li>
-            <li class="north">north</li>
-            <li class="dining">z</li>
-            <li class="south">z</li>
-            <li class="small">z</li>
-            <li class="medium">medium</li>
-            <li class="large">z</li>
-            <li class="single">single</li>
-            <li class="double">double</li>
-          </ul>
-          <img src="http://www.scb.com/sites/default/files/styles/image_780_580/adaptive-image/public/exterior-5_1.jpg"/>
+          <h1 class="name">Bobb-McCulloch</h1>
+          <h2 id="bobbRat" class="rating">0</h2>
+          <img src="http://nbn-housing.s3.amazonaws.com/static/img/slideshows/bobb/img1.jpg"/>
+        </div>
+        <div class="item">
+          <h1 class="name">Elder</h1>
+          <h2 id="elderRat" class="rating">0</h2>
+          <img src="http://www.scb.com/sites/default/files/styles/image_780_580/adaptive-image/public/8812-46.jpg"/>
+        </div>
+        <div class="item">
+          <h1 class="name">Hinman</h1>
+          <h2 id="hinmanRat" class="rating">0</h2>
+          <img src="http://maps.northwestern.edu/img/object_photos/69.jpg"/>
+        </div>
+    	  <div class="item">
+          <h1 class="name">Plex</h1>
+          <h2 id="plexRat" class="rating">0</h2>
+          <img src="http://maps.northwestern.edu/img/object_photos/103.jpg"/>
+        </div>
+        <div class="item">
+          <h1 class="name">Sargent</h1>
+          <h2 id="sargentRat" class="rating">0</h2>
+          <img src="http://farm1.staticflickr.com/6/10761603_8ed6838c16_o.jpg"/>
         </div>
         <div class="item">
           <h1 class="name">Shepard</h1>
-          <ul>
-            <li class="ac">has a.c.</li>
-            <li class="south">south</li>
-            <li class="dining">z</li>
-            <li class="north">z</li>
-            <li class="small">z</li>
-            <li class="medium">medium</li>
-            <li class="large">z</li>
-            <li class="single">z</li>
-            <li class="double">double</li>
-          </ul>
+          <h2 id="shepardRat" class="rating">0</h2>
           <img src="http://maps.northwestern.edu/img/object_photos/168.jpg"/>
+        </div>
+        <div class="item">
+          <h1 class="name">Slivka</h1>
+          <h2 id="slivkaRat" class="rating">0</h2>
+          <img src="http://www.scb.com/sites/default/files/styles/image_780_580/adaptive-image/public/exterior-5_1.jpg"/>
         </div>
     	</div>
       <!-- Example row of columns -->
