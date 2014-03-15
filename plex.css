@@ -6,23 +6,29 @@ body {
 	width: 40%;
 	margin-left: 10px;
 }
-
+.plex {
+	width: 1200px;
+	margin: 20px auto 0 auto;
+}
 
 
 #plex
 {
-	width: 80%;
-	margin-top: 50px;
-	margin-left: 60px;
-	
+	width: 700px;
+	height: 400px;
+}
+.well {
+	height: 250px;
 }
 
 #map{
 	float: right;
-	margin-right: 50px;
-	margin-top: 75px;
+	margin-bottom: 20px;
 }
-
+.bxslider img {
+	height: 250px;
+	width: 400px;
+}
 
 #pictures
 {
@@ -81,7 +87,6 @@ body {
 #ratings
 {
 	margin-top: 25px;
-	margin-left: 150px;
 	width: 100%;
 }
 
@@ -94,12 +99,31 @@ body {
 	height: 20px;
 	width: auto;
 }
+.leftQual {
+	margin-left: 180px;
+	display:inline-block;
+	float:left;
+}
+.rightQual {
+	margin-left: 30px;
+	display:inline-block;
+	float:left;
+}
+.bx-wrapper .bx-next {
+	right: -40px;
+}
+.bx-wrapper .bx-prev {
+	left: -50px;
+}
 
 .starRat
 {
-	margin-right: 50px;
+	margin-right: 58px;
 	float:left;
 	
+}
+.lastRat{
+	margin-right: 0px;
 }
 
 #submit-comment
