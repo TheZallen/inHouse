@@ -14,8 +14,6 @@ Project for [HCI] at Northwestern University:
 * Yuchen Yang
 * [Greg Elliott]
 
-Used [Flat-UI] for the stylizing.
-
 [inHouse]: http://tukoapps.com/inHouse/
 [HCI]: http://users.eecs.northwestern.edu/~mhorn/eecs330/
 [David Kim]: https://github.com/DavidKim2015
